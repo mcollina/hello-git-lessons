@@ -1,3 +1,5 @@
 #! /usr/bin/env node
 
-console.log("hello " + process.argv[2]);
+var name = process.argv[2] || "world";
+console.log("hello " + name);
+
